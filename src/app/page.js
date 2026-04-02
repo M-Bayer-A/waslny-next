@@ -1,10 +1,11 @@
-import { Button } from "@/features/shared/components/ui/button";
+import { redirect } from "next/navigation";
 
-export default function Home() {
-  return (
-    <div>
-      hello home page
-      <Button>scscs</Button>
-    </div>
-  );
+export default async function Page() {
+  const isLoggedIn = false; // 🔥 replace with real auth check
+
+  if (!isLoggedIn) {
+    redirect("/login");
+  }
+
+  redirect("/dashboard");
 }
