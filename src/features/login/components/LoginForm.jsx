@@ -18,7 +18,7 @@ export default function LoginForm() {
   };
   //
   return (
-    <form className="md:w-[50%] space-y-2" onSubmit={handleSubmit}>
+    <form className="min-w-50 space-y-2" onSubmit={handleSubmit}>
       <Input
         type="email"
         placeholder="user name"

@@ -2,16 +2,14 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 /*  */
-body {
+/* body {
   overflow: auto;
   margin: 0;
   max-height: 100vh;
-  /* no more than the height of the viewport */
 }
 html {
   overflow: hidden;
-  /* This one is important to avoid the propagation */
-}
+} */
 
 .white-svg {
   filter: brightness(0) invert(1); /* Turns any color to white */

@@ -7,11 +7,7 @@ export default function Login() {
   return (
     <div className="w-screen h-screen flex md:flex-row flex-col-reverse">
       {/* Black Side */}
-      <div
-        className="md:w-[50%] w-full md:h-full h-[25%] 
-                p-10 flex flex-col justify-between
-                font-[Geist] text-lg bg-zinc-900 text-amber-50"
-      >
+      <div className="w-full md:h-full h-[25%] flex flex-col justify-between p-10 bg-zinc-900 font-[Geist] text-lg text-amber-50">
         <div className="flex flex-row font-medium">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
@@ -26,13 +22,13 @@ export default function Login() {
       {/* == Black Side == */}
 
       {/* White Side */}
-      <div className="md:w-[50%] w-full md:h-full h-[75%] flex flex-col justify-center items-center bg-white font-[Geist] gap-3">
-        <h1 className=" font-semibold text-[24px]">Login to account</h1>
-        <p className=" font-normal text-[14px] text-zinc-500">
+      <div className="w-full md:h-full h-[75%] content-center place-items-center p-10 space-y-3 bg-white font-[Geist]">
+        <h1 className="font-semibold text-[24px]">Login to account</h1>
+        <p className="font-normal text-[14px] text-zinc-500">
           Enter the User Name and the password
         </p>
         <LoginForm />
-        <p className="w-[40%] font-normal text-[14px]  text-zinc-500 text-center">
+        <p className="font-normal text-[14px]  text-zinc-500 text-center">
           By clicking continue, you agree to our Terms of Service and Privacy
           Policy.
         </p>
