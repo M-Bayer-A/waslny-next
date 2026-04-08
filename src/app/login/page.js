@@ -3,7 +3,7 @@ import OTPDialog from "@/features/login/components/OTPDialog";
 import { Toaster } from "@/features/shared/components/ui/sonner";
 import { CustomIcons, getIcon } from "@/helpers/iconsHelper";
 
-export default function Login() {
+export default function LoginPage() {
   return (
     <div className="w-screen h-screen flex md:flex-row flex-col-reverse">
       {/* Black Side */}

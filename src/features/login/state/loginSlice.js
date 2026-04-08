@@ -85,7 +85,7 @@ export const loginSlice = createSlice({
           description: "",
         });
         state.isAuth = true;
-        redirect("/cscsc");
+        redirect("/main");
       })
       .addCase(checkOtpUseCase.rejected, (state) => {
         console.log("Rejected");

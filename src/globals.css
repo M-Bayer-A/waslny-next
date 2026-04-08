@@ -17,6 +17,9 @@ html {
 .black-svg {
   filter: brightness(0) saturate(100%);
 }
+.sidebar-buttonn:hover img {
+  filter: brightness(0) invert(1);
+}
 /* ==FONTS== */
 @font-face {
   font-family: Geist;
